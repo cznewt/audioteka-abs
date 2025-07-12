@@ -1,4 +1,4 @@
-name: Build audioteka-abs image
+name: Build container image
 
 on:
   push:

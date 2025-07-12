@@ -1,23 +1,20 @@
 # audioteka-abs
 
-Audiobookshelf Custom Metadata Provider for ![audioteka.com](https://audioteka.com/). 
+Audiobookshelf custom metadata provider for [audioteka.com](https://audioteka.com/).
 
 At the moment it only supports Polish and Czech sites.
 
-Docker registry: https://github.com/cznewt/audioteka-abs/pkgs/container/audioteka-abs
+Container registry: https://github.com/cznewt/audioteka-abs/pkgs/container/audioteka-abs
 
 ## Screenshots
 
-### List of matches
+### List possible matches
 
-![image](https://github.com/user-attachments/assets/411b5897-38cf-4c31-bb1c-4b4dfb62d02c)
-![image](https://github.com/user-attachments/assets/d470bb59-9d42-4c32-a65c-2f14b81cc71b)
+![image](./docs/images/list-matches-audiobook-metadata.png)
 
+### View and select matched data
 
-### View of matched data
-
-![image](https://github.com/user-attachments/assets/68828be1-fc74-4c08-b44b-b6977c497df4)
-
+![image](./docs/images/view-matched-audiobook-metadata.png)
 
 ## Fetching features
 

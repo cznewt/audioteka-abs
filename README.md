@@ -2,7 +2,7 @@
 
 Audiobookshelf custom metadata provider for [audioteka.com](https://audioteka.com/).
 
-At the moment it only supports Polish and Czech sites.
+At the moment it only supports Czech and Polish sites.
 
 Container registry: https://github.com/cznewt/audioteka-abs/pkgs/container/audioteka-abs
 
@@ -26,7 +26,7 @@ Container registry: https://github.com/cznewt/audioteka-abs/pkgs/container/audio
 - Genres
 - Language
 - Description
-- **Lectors**
+- **Narrators**
 - **Audiobook cover**
 
 ## Instructions to run locally
@@ -44,11 +44,9 @@ Docker and Docker Compose installed on your system
 services:
   audioteka-abs:
     image: ghcr.io/cznewt/audioteka-abs:main
-    container_name: audioteka-abs
     environment:
       - LANGUAGE=cz # For Polish users: Change enviorment line to - LANGUAGE=pl
-      - ADD_AUDIOTEKA_LINK_TO_DESCRIPTION=true # Optional: Set to 'false' to remove the Audioteka link from the description
-    restart: unless-stopped
+      - ADD_AUDIOTEKA_LINK_TO_DESCRIPTION=false # Optional: Set to 'true' to add the Audioteka link to the description
     ports:
       - "3001:3001"
 ```

@@ -71,19 +71,20 @@ docker-compose pull
 docker-compose up -d
 ```
 
-### To stop the application:
+### To stop the application
 
 ```
 docker-compose down
 ```
 
-### To view logs:
+### To view logs
 
 ```
 docker-compose logs -f
 ```
 
 ## How to use
+
 1. Navigate to your AudiobookShelf settings
 2. Navigate to Item Metadata Utils
 3. Navigate to Custom Metadata Providers

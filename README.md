@@ -92,9 +92,9 @@ docker-compose logs -f
 2. Navigate to Item Metadata Utils
 3. Navigate to Custom Metadata Providers
 4. Click on Add
-5. Name: whatever for example AudioTeka
+5. Name: whatever for example `audioteka.com`
 6. URL: http://your-ip:3001
-7. Authorization Header Value: whatever, but not blank, for example 00000
+7. Authorization Header Value: whatever, but not blank, for example `00000`
 8. Save
 
-![image](https://github.com/user-attachments/assets/39ab7936-0b48-4a61-b418-840d02855522)
+![image](./docs/images/add-metadata-plugin.png)

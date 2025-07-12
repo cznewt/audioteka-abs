@@ -7,12 +7,12 @@ Docker hub page: https://hub.docker.com/r/lakafior/audioteka-abs
 ## Screenshots
 
 ### List of matches
-![obraz](https://github.com/user-attachments/assets/411b5897-38cf-4c31-bb1c-4b4dfb62d02c)
-![obraz](https://github.com/user-attachments/assets/d470bb59-9d42-4c32-a65c-2f14b81cc71b)
+![image](https://github.com/user-attachments/assets/411b5897-38cf-4c31-bb1c-4b4dfb62d02c)
+![image](https://github.com/user-attachments/assets/d470bb59-9d42-4c32-a65c-2f14b81cc71b)
 
 
 ### View of matched data
-![obraz](https://github.com/user-attachments/assets/68828be1-fc74-4c08-b44b-b6977c497df4)
+![image](https://github.com/user-attachments/assets/68828be1-fc74-4c08-b44b-b6977c497df4)
 
 ## Fetching features:
 - Cover
@@ -28,18 +28,20 @@ Docker hub page: https://hub.docker.com/r/lakafior/audioteka-abs
 
 # Instructions
 
-## How to run:
+## How to run locally
 
 ### Prerequisites:
+
 Docker and Docker Compose installed on your system
 
 ### Setup and Running:
-1. Create or copy from girhub a compose.yml file in your desired directory with the following content.
+
+1. Create or copy from girhub a compose.yml file in your desired directory with the following content
 ```
 ---
 services:
   audioteka-abs:
-    image: lakafior/audioteka-abs
+    image: cznewt/audioteka-abs
     container_name: audioteka-abs
     environment:
       - LANGUAGE=pl # For Czech users: Change enviorment line to - LANGUAGE=cz
@@ -50,22 +52,22 @@ services:
 ```
 #### 
 
-2. Pull the latest Docker image:
+2. Pull the latest Docker images
 ```
 docker-compose pull
 ```
-3. Start the application:
+3. Start the application
 ```
 docker-compose up -d
 ```
 
 
-### Updating the Application:
+### Updating the Application
+
 To update to the latest version:
+
 ```
 docker-compose pull
-```
-```
 docker-compose up -d
 ```
 
@@ -91,4 +93,4 @@ docker-compose logs -f
 7. Authorization Header Value: whatever, but not blank, for example 00000
 8. Save
 
-![obraz](https://github.com/user-attachments/assets/39ab7936-0b48-4a61-b418-840d02855522)
+![image](https://github.com/user-attachments/assets/39ab7936-0b48-4a61-b418-840d02855522)

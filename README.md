@@ -1,8 +1,8 @@
 # audioteka-abs
 
-Audiobookshelf Custom Metadata Provider for Audioteka.com. 
+Audiobookshelf Custom Metadata Provider for ![audioteka.com](https://audioteka.com/). 
 
-It supports Polish and Czech sites.
+At the moment it only supports Polish and Czech sites.
 
 Docker registry: https://github.com/cznewt/audioteka-abs/pkgs/container/audioteka-abs
 
@@ -67,7 +67,6 @@ docker-compose pull
 ```
 docker-compose up -d
 ```
-
 
 ### Updating the Application
 
